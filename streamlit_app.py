@@ -20,7 +20,7 @@ st.write(
 
 # st.write('Your favourite fruit is:', option)
 
-
+from snowflake.snowpark.functions import col
 
 name_on_order = st.text_input('Name on smoothie:')
 st.write('The name on your smoothie will be:', name_on_order)
